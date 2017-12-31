@@ -1,0 +1,114 @@
+body{margin: 0;
+padding:0;}
+
+.nopad{
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.logo{font-family: 'Arimo', sans-serif;
+    font-size: 40px;
+    padding: 0px;
+    font-weight: bold;}
+
+.nav-list{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .effect{ color: white;}
+.navbar-nav .nav-item .effect:hover{}
+
+.navbar-nav .pill1{color: white;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px 17px;
+    font-size: 14px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-right: 10px;}
+
+.navbar-nav .pill1:hover{
+     background: white;
+    color: black;
+    border: 1px solid black;
+}
+.navbar-nav .pill2{background: white;
+    color: black;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 80px;
+    padding: 8px 15px;
+    font-size: 14px;}
+
+.navbar-nav .pill2:hover{
+    background: transparent;
+    color: white;
+}
+/*service section*/
+.circle{
+	display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;}
+
+/* .img{    background-image: url(../img/boos.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center center;
+    margin-bottom: -170px;
+}*/
+
+.style{border-radius: 25px;
+    width: 300px;
+    margin: auto;
+    background: #0066d4;}
+.style:hover{background: #0051a8;}
+.style:focus{ box-shadow: 0 0 0 0.2rem transparent;}
+
+.send{
+background: transparent;
+    color: #666666;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #666666;
+    font-weight: 500;
+}
+.send:hover{    color: white;
+    background: #3da3b4;
+    border: none;}
+.send:focus{ box-shadow: 0 0 0 0.2rem transparent;}
+
+.blue{color: #fff;
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+    padding: 170px 0px 85px 0px;}
+
+.title{margin-bottom: 10px;
+    font-size: 20px;}
+
+.txt{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.footer ul{
+     list-style: none;
+    display: -webkit-inline-box;
+    margin-bottom: 0px;
+    padding: 0px;
+     font-size: 14px;
+}
+.footer ul li{padding-top: 15px;}
+.footer ul li a{ padding: 21px 12px;
+    color: #5f676f;}
